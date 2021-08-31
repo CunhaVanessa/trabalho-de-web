@@ -40,4 +40,4 @@ Ferramentas ainda em definição...
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Barbara Calderon, Livia Marques, Lucca Teixeira e Vanessa Cunha 👋
+Feito com ❤️ por Barbara Calderon, Livia Marques, Lucca Teixeira e Vanessa Cunha. 👋
