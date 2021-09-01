@@ -249,6 +249,13 @@ input:focus {
 	width: 90px;
 }
 
+input:invalid {
+  border: 2px solid red;
+}
+input:invalid:focus {
+  border: 2px solid red;
+}
+
 footer {
     background-color: #222;
     color: #fff;
