@@ -4,6 +4,7 @@ const container = document.getElementById('container');
 const cadastroButton = document.getElementById('cadastro');
 let nomeVazio = '';
 let enderecoVazio = '';
+let senhaVazio = '';
 
 signUpButton.addEventListener('click', () => {
 	container.classList.add("right-panel-active");
@@ -16,12 +17,18 @@ signInButton.addEventListener('click', () => {
 cadastroButton.addEventListener('click', () => {
 	const nomeCompleto = document.getElementById('nomeCompleto').value;
 	const enderecoEmail = document.getElementById('enderecoEmail').value;
+	const senhaUsuario = document.getElementById('senhaUsuario').value;
 	nomeVazio = nomeCompleto.length == 0 ? true : false;
-	enderecoVazio = enderecoEmail.length == 0 ? true: false;
+	enderecoVazio = enderecoEmail.length == 0 ? true : false;
+	senhaVazio = senhaUsuario.length < 8 ? true : false;
 	console.log(nomeVazio);
+	console.log(enderecoVazio);
+	console.log(senhaVazio);
 	if ((nomeVazio == true) || (enderecoVazio == true)) {
 		window.alert('Por favor, digite um campo válido.')
-	} else {
+	} else if (senhaVazio == true) {
+		window.alert('A senha deve ter no mínimo 8 caracteres.');
+	}	else {
 		window.alert(`Bem vindo, ${nomeCompleto}! Seu endereço de e-mail foi confirmado como ${enderecoEmail}.`);
 	}
 })
