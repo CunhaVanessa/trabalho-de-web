@@ -55,10 +55,8 @@ button {
 	background-color: #970bff;
 	color: #FFFFFF;
 	font-size: 12px;
-/*	font-weight: bold;*/
 	padding: 12px 45px;
 	letter-spacing: 1px;
-/*	text-transform: uppercase;*/
 	transition: transform 80ms ease-in;
 }
 
@@ -102,14 +100,6 @@ input:focus {
 
 .container {
 	background-color: #fff;
-	/*border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
-	position: relative;
-	overflow: hidden;
-	width: 768px;
-	max-width: 100%;
-	min-height: 480px;*/
 }
 
 .form-container {
@@ -249,33 +239,7 @@ input:focus {
 	width: 90px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
 
-footer p {
-    margin: 10px 0;
+input:invalid:focus {
+  border: 2px solid red;
 }
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
-
-/*#icon{
-    background-image:url(../login/login_icon.jpeg); 
-    background-repeat: no-repeat; 
-    background-position: 2px 3px;
-}*/
