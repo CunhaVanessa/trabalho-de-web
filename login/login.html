@@ -15,9 +15,11 @@
 			<div class="social-container">
 				<img src="login_icon.jpeg">
 			</div>
-			<input type="text" id="nomeCompleto" placeholder="Nome completo" />
-			<input type="email" id="enderecoEmail" placeholder="Endereço de email" />
-			<input type="password" placeholder="Senha (pelo menos 8 dígitos)" minlength="8"/>
+			<input type="text" id="nomeCompleto" placeholder="Nome completo" required/>
+			<input type="email" id="enderecoEmail" placeholder="Endereço de email" / required>
+			<input type="password" placeholder="Senha (pelo menos 8 dígitos)" minlength="8"/ required>
+			<input type="checkbox" id="terms" name="terms1" value="Aceito" required> 
+			<label for="terms1"> Eu concordo com os termos de serviço e política de privacidade</label><br>
 			<button id="cadastro">Cadastrar</button>
 		</form>
 	</div>
@@ -28,8 +30,8 @@
 			<div class="social-container">
 				<img src="login_icon.jpeg">
 			</div>
-			<input type="email" placeholder="Email">
-			<input type="password" placeholder="Senha" minlength="8" />
+			<input type="email" placeholder="Email" required="">
+			<input type="password" placeholder="Senha" minlength="8" required/>
 			<a href="#">Esqueceu sua senha?</a>
 			<button>Entrar</button>
 		</form>
@@ -49,10 +51,6 @@
 		</div>
 	</div>
 </div>
-
-<footer>
-
-</footer>
 
 <script type="text/javascript" src="login.js"></script>
 </body>
