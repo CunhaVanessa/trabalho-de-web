@@ -2,8 +2,8 @@ const signUpButton = document.getElementById('signUp');
 const signInButton = document.getElementById('signIn');
 const container = document.getElementById('container');
 const cadastroButton = document.getElementById('cadastro');
-const nomeCompleto = document.querySelector('input#nomeCompleto').value;
-const enderecoEmail = document.querySelector('input#enderecoEmail').value;
+const nomeCompleto = document.getElementById('nomeCompleto').value;
+const enderecoEmail = document.getElementById('enderecoEmail').value;
 
 signUpButton.addEventListener('click', () => {
 	container.classList.add("right-panel-active");
