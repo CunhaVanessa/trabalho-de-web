@@ -6,17 +6,18 @@
 	<title>Mentorama</title>
 </head>
 <body>
-
+<!-- <h2>Weekly Coding Challenge #1: Sign in/up Form</h2> -->
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
 		<form action="#">
 			<h1>Mentorama</h1>
 			<p>Inicie sua jornada de mentoria e trilhe caminhos extraordinários na Tecnologia</p>
 			<div class="social-container">
+				<!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a> -->
 				<img src="login_icon.jpeg">
 			</div>
-			<input type="text" id="nomeCompleto" placeholder="Nome completo" />
-			<input type="email" id="enderecoEmail" placeholder="Endereço de email" />
+			<input type="text" id="nomeCompleto" onfocus="this.value=''" placeholder="Nome completo" />
+			<input type="email" id="enderecoEmail" onfocus="this.value=''" placeholder="Endereço de email" />
 			<input type="password" placeholder="Senha (pelo menos 8 dígitos)" />
 			<button id="cadastro">Cadastrar</button>
 		</form>
@@ -26,6 +27,7 @@
 			<h1>Mentorama</h1>
 			<p>Inicie sua jornada de mentoria e trilhe caminhos extraordinários na Tecnologia</p>
 			<div class="social-container">
+				<!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a> -->
 				<img src="login_icon.jpeg">
 			</div>
 			<input type="email" placeholder="Email">
@@ -37,12 +39,12 @@
 	<div class="overlay-container">
 		<div class="overlay">
 			<div class="overlay-panel overlay-left">
-				<h2> <i>"Eu fico feliz pela oportunidade de ajudar jovens da área com o conhecimento que acumulei ao longo dos anos. É uma forma de devolver à comunidade."</i></h2>
+				<h2>"Eu fico feliz pela oportunidade de ajudar jovens da área com o conhecimento que acumulei ao longo dos anos. É uma forma de devolver à comunidade."</h2>
 				<p>Oprah Winfrey, CEO da empresa Pear</p>
 				<button class="ghost" id="signIn">Entrar</button>
 			</div>
 			<div class="overlay-panel overlay-right">
-				<h2> <i> "Ter mentores na minha jornada profissional me dá mais segurança nas escolhas que envolvem <br> minha carreira profissional."</i> </h2>
+				<h2>"Ter mentores na minha jornada profissional me dá mais segurança nas escolhas que envolvem minha carreira profissional."</h2>
 				<p>Paola Carosella, estudante de Sistemas de Informação</p>
 				<button class="ghost" id="signUp">Cadastre-se</button>
 			</div>
