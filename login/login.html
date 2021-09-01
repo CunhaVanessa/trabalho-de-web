@@ -17,8 +17,8 @@
 				<img src="login_icon.jpeg">
 			</div>
 			<input type="text" id="nomeCompleto" onfocus="this.value=''" placeholder="Nome completo" required/>
-			<input type="email" id="enderecoEmail" onfocus="this.value=''" placeholder="Endereço de email" / required>
-			<input type="password" id="senhaUsuario" on focus="this.value''" placeholder="Senha (pelo menos 8 dígitos)" minlength="8"/ required>
+			<input type="email" id="enderecoEmail" onfocus="this.value=''" placeholder="Endereço de email" required/>
+			<input type="password" id="senhaCadastro" on focus="this.value''" placeholder="Senha (pelo menos 8 dígitos)" minlength="8"/ required>
 			<input type="checkbox" id="terms" name="terms1" value="Aceito" required> 
 			<label for="terms1"> Eu concordo com os termos de serviço e política de privacidade</label><br>
 			<button id="cadastro">Cadastrar</button>
@@ -32,10 +32,10 @@
 				<!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a> -->
 				<img src="login_icon.jpeg">
 			</div>
-			<input type="email" placeholder="Email" required="">
-			<input type="password" placeholder="Senha" minlength="8" required/>
+			<input type="email" id="emailUsuario" onfocus="this.value=''" placeholder="Email" required="">
+			<input type="password" id="senhaUsuario" onfocus="this.value=''" placeholder="Senha" minlength="8" required/>
 			<a href="#">Esqueceu sua senha?</a>
-			<button>Entrar</button>
+			<button id="usuario">Entrar</button>
 		</form>
 	</div>
 	<div class="overlay-container">
