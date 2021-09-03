@@ -55,6 +55,11 @@ header button:hover {
   cursor: pointer;
 }
 
+#res {
+  text-align: center;
+  padding: 20px 20px;
+}
+
 .header-stars {
   display: flex;
   flex-direction: row;

@@ -9,6 +9,8 @@ let senhaVazio = '';
 let emailUsuarioVazio = '';
 let senhaUsuarioVazio = '';
 
+
+
 signUpButton.addEventListener('click', () => {
 	container.classList.add("right-panel-active");
 });
